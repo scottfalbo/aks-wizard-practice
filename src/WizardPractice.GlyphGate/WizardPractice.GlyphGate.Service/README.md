@@ -1,3 +1,0 @@
-# AKS Practice
-
-wizard practice

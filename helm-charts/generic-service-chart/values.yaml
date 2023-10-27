@@ -21,9 +21,16 @@ podAnnotations: {}
 podSecurityContext: {}
 securityContext: {}
 
+container:
+  ports:
+    http: 80
+    https: 443
+
 service:
   type: ClusterIP
-  port: 80
+  ports:
+    http: 80
+    https: 443
 
 ingress:
   enabled: false
@@ -43,9 +50,6 @@ autoscaling:
   minReplicas: 1
   maxReplicas: 100
   targetCPUUtilizationPercentage: 80
-
-volumes: []
-volumeMounts: []
 
 nodeSelector: {}
 tolerations: []

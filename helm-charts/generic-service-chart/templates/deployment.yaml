@@ -24,7 +24,10 @@ spec:
           imagePullPolicy: {{ .Values.image.pullPolicy }}
           ports:
             - name: http
-              containerPort: {{ .Values.service.port }}
+              containerPort: {{ .Values.container.ports.http }}
+              protocol: TCP
+            - name: https
+              containerPort: {{ .Values.container.ports.https }}
               protocol: TCP
           livenessProbe:
             httpGet:
@@ -35,8 +38,13 @@ spec:
               path: /
               port: http
           resources: {{- toYaml .Values.resources | nindent 12 }}
-          volumeMounts: {{- toYaml .Values.volumeMounts | nindent 12 }}
-      volumes: {{- toYaml .Values.volumes | nindent 8 }}
+          volumeMounts:
+            - mountPath: "/https/"
+              name: my-cert-volume
+      volumes:
+        - name: my-cert-volume
+          secret:
+            secretName: mycert-secret
       nodeSelector: {{- toYaml .Values.nodeSelector | nindent 8 }}
       affinity: {{- toYaml .Values.affinity | nindent 8 }}
       tolerations: {{- toYaml .Values.tolerations | nindent 8 }}

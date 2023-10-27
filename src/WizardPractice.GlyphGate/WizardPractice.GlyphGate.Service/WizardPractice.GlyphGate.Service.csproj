@@ -18,4 +18,8 @@
 	<Folder Include="Controllers\" />
 	</ItemGroup>
 
+	<ItemGroup>
+	  <ProjectReference Include="..\WizardPractice.GlyphGate.ServiceContracts\WizardPractice.GlyphGate.ServiceContracts.csproj" />
+	</ItemGroup>
+
 </Project>

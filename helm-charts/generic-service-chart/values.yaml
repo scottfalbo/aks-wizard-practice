@@ -5,13 +5,15 @@ image:
   pullPolicy: IfNotPresent
   tag: ""
 
-imagePullSecrets: []
+imagePullSecrets:
+  - name: docker-registry
+
 nameOverride: ""
 fullnameOverride: ""
 
 serviceAccount:
   create: true
-  automount: true
+  automountServiceAccountToken: true
   annotations: {}
   name: ""
 

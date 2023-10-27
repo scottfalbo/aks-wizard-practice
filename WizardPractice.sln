@@ -5,6 +5,10 @@ VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WizardPractice.GlyphGate.Service", "src\WizardPractice.GlyphGate\WizardPractice.GlyphGate.Service\WizardPractice.GlyphGate.Service.csproj", "{049FEE44-C4BD-4933-BAFC-DCBABA84C864}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WizardPractice.ReagentReservoir.Service", "src\WizardPractice.ReagentReservoir\WizardPractice.ReagentReservoir.Service\WizardPractice.ReagentReservoir.Service.csproj", "{200B2CAA-73B6-411C-A1A9-C90F9FA2B969}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WizardPractice.ArcanaAmalgamator.Service", "src\WizardPractice.ArcanaAmalgamator\WizardPractice.ArcanaAmalgamator.Service\WizardPractice.ArcanaAmalgamator.Service.csproj", "{68E1EE3D-D7B6-4F3A-A940-692DAAAF74C5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{049FEE44-C4BD-4933-BAFC-DCBABA84C864}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{049FEE44-C4BD-4933-BAFC-DCBABA84C864}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{049FEE44-C4BD-4933-BAFC-DCBABA84C864}.Release|Any CPU.Build.0 = Release|Any CPU
+		{200B2CAA-73B6-411C-A1A9-C90F9FA2B969}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{200B2CAA-73B6-411C-A1A9-C90F9FA2B969}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{200B2CAA-73B6-411C-A1A9-C90F9FA2B969}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{200B2CAA-73B6-411C-A1A9-C90F9FA2B969}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68E1EE3D-D7B6-4F3A-A940-692DAAAF74C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68E1EE3D-D7B6-4F3A-A940-692DAAAF74C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68E1EE3D-D7B6-4F3A-A940-692DAAAF74C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68E1EE3D-D7B6-4F3A-A940-692DAAAF74C5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

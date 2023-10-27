@@ -1,0 +1,16 @@
+{
+  "solution": {
+    "path": "WizardPractice.sln",
+    "projects": [
+      "src\\WizardPractice.ArcanaAmalgamator\\WizardPractice.ArcanaAmalgamator.Client.UnitTests\\WizardPractice.ArcanaAmalgamator.Client.UnitTests.csproj",
+      "src\\WizardPractice.ArcanaAmalgamator\\WizardPractice.ArcanaAmalgamator.Client\\WizardPractice.ArcanaAmalgamator.Client.csproj",
+      "src\\WizardPractice.ArcanaAmalgamator\\WizardPractice.ArcanaAmalgamator.FunctionalTests\\WizardPractice.ArcanaAmalgamator.FunctionalTests.csproj",
+      "src\\WizardPractice.ArcanaAmalgamator\\WizardPractice.ArcanaAmalgamator.Service.UnitTests\\WizardPractice.ArcanaAmalgamator.Service.UnitTests.csproj",
+      "src\\WizardPractice.ArcanaAmalgamator\\WizardPractice.ArcanaAmalgamator.ServiceContracts\\WizardPractice.ArcanaAmalgamator.ServiceContracts.csproj",
+      "src\\WizardPractice.ArcanaAmalgamator\\WizardPractice.ArcanaAmalgamator.Service\\WizardPractice.ArcanaAmalgamator.Service.csproj",
+      "src\\WizardPractice.Core\\WizardPractice.Core\\WizardPractice.Core.csproj",
+      "src\\WizardPractice.Cosmos\\WizardPractice.Cosmos.csproj",
+      "src\\WizardPractice.EventHubs\\WizardPractice.EventHubs.csproj"
+    ]
+  }
+}

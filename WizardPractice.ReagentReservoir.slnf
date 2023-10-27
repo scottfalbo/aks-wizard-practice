@@ -1,0 +1,15 @@
+{
+  "solution": {
+    "path": "WizardPractice.sln",
+    "projects": [
+      "src\\WizardPractice.Core\\WizardPractice.Core\\WizardPractice.Core.csproj",
+      "src\\WizardPractice.Cosmos\\WizardPractice.Cosmos.csproj",
+      "src\\WizardPractice.ReagentReservoir\\WizardPractice.ReagentReservoir.Client.UnitTests\\WizardPractice.ReagentReservoir.Client.UnitTests.csproj",
+      "src\\WizardPractice.ReagentReservoir\\WizardPractice.ReagentReservoir.Client\\WizardPractice.ReagentReservoir.Client.csproj",
+      "src\\WizardPractice.ReagentReservoir\\WizardPractice.ReagentReservoir.FunctionalTests\\WizardPractice.ReagentReservoir.FunctionalTests.csproj",
+      "src\\WizardPractice.ReagentReservoir\\WizardPractice.ReagentReservoir.Service.UnitTests\\WizardPractice.ReagentReservoir.Service.UnitTests.csproj",
+      "src\\WizardPractice.ReagentReservoir\\WizardPractice.ReagentReservoir.ServiceContracts\\WizardPractice.ReagentReservoir.ServiceContracts.csproj",
+      "src\\WizardPractice.ReagentReservoir\\WizardPractice.ReagentReservoir.Service\\WizardPractice.ReagentReservoir.Service.csproj"
+    ]
+  }
+}

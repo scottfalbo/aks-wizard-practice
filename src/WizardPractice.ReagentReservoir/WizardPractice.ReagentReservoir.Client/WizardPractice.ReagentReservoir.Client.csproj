@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
@@ -7,8 +7,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Grpc.Net.Client" Version="2.58.0" />
     <PackageReference Include="protobuf-net" Version="3.2.26" />
     <PackageReference Include="protobuf-net.Grpc" Version="1.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\WizardPractice.ReagentReservoir.ServiceContracts\WizardPractice.ReagentReservoir.ServiceContracts.csproj" />
   </ItemGroup>
 
 </Project>

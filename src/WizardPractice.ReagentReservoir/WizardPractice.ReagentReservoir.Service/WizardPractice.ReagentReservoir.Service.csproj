@@ -19,4 +19,8 @@
     <Folder Include="Controllers\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\WizardPractice.ReagentReservoir.ServiceContracts\WizardPractice.ReagentReservoir.ServiceContracts.csproj" />
+  </ItemGroup>
+
 </Project>

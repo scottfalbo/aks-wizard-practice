@@ -2,6 +2,8 @@
   "solution": {
     "path": "WizardPractice.sln",
     "projects": [
+      "src\\WizardPractice.ArcanaAmalgamator\\WizardPractice.ArcanaAmalgamator.Client\\WizardPractice.ArcanaAmalgamator.Client.csproj",
+      "src\\WizardPractice.ArcanaAmalgamator\\WizardPractice.ArcanaAmalgamator.ServiceContracts\\WizardPractice.ArcanaAmalgamator.ServiceContracts.csproj",
       "src\\WizardPractice.Core\\WizardPractice.Core\\WizardPractice.Core.csproj",
       "src\\WizardPractice.Cosmos\\WizardPractice.Cosmos.csproj",
       "src\\WizardPractice.ReagentReservoir\\WizardPractice.ReagentReservoir.Client.UnitTests\\WizardPractice.ReagentReservoir.Client.UnitTests.csproj",

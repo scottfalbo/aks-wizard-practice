@@ -1,0 +1,3 @@
+image:
+  repository: wizardpracticecontainerregistry.azurecr.io/reagent-reservoir-image
+  tag: v1.0

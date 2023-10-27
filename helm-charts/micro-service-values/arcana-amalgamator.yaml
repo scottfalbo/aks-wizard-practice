@@ -1,0 +1,3 @@
+image:
+  repository: wizardpracticecontainerregistry.azurecr.io/arcana-amalgamator-image
+  tag: v1.0

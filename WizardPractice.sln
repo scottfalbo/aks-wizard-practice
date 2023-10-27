@@ -9,43 +9,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WizardPractice.ReagentReser
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WizardPractice.ArcanaAmalgamator.Service", "src\WizardPractice.ArcanaAmalgamator\WizardPractice.ArcanaAmalgamator.Service\WizardPractice.ArcanaAmalgamator.Service.csproj", "{68E1EE3D-D7B6-4F3A-A940-692DAAAF74C5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WizardPractice.GlyphGate.Client", "src\WizardPractice.GlyphGate\WizardPractice.GlyphGate.Client\WizardPractice.GlyphGate.Client.csproj", "{2CF37428-DA1F-47E9-9767-345119F2BD55}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WizardPractice.GlyphGate.Client", "src\WizardPractice.GlyphGate\WizardPractice.GlyphGate.Client\WizardPractice.GlyphGate.Client.csproj", "{2CF37428-DA1F-47E9-9767-345119F2BD55}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WizardPractice.GlyphGate.ServiceContracts", "src\WizardPractice.GlyphGate\WizardPractice.GlyphGate.ServiceContracts\WizardPractice.GlyphGate.ServiceContracts.csproj", "{9190A3D8-380D-488F-9CAD-6CC1FB2975AE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WizardPractice.GlyphGate.ServiceContracts", "src\WizardPractice.GlyphGate\WizardPractice.GlyphGate.ServiceContracts\WizardPractice.GlyphGate.ServiceContracts.csproj", "{9190A3D8-380D-488F-9CAD-6CC1FB2975AE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WizardPractice.GlyphGate.Service.UnitTests", "src\WizardPractice.GlyphGate\WizardPractice.GlyphGate.Service.UnitTests\WizardPractice.GlyphGate.Service.UnitTests.csproj", "{7F8FA84F-11EA-4EEC-A385-AFE9D424C5E1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WizardPractice.ReagentReservoir.Client", "src\WizardPractice.ReagentReservoir\WizardPractice.ReagentReservoir.Client\WizardPractice.ReagentReservoir.Client.csproj", "{30AD9B73-4BB6-41D8-8DF2-F6F1A812C076}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WizardPractice.GlyphGate.Client.UnitTests", "src\WizardPractice.GlyphGate\WizardPractice.GlyphGate.Client.UnitTests\WizardPractice.GlyphGate.Client.UnitTests.csproj", "{9ACA0327-D1C2-4C8F-9092-F26E9744A906}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WizardPractice.ReagentReservoir.ServiceContracts", "src\WizardPractice.ReagentReservoir\WizardPractice.ReagentReservoir.ServiceContracts\WizardPractice.ReagentReservoir.ServiceContracts.csproj", "{93A43D9C-0D72-4C0E-8A35-67764F7CC62A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WizardPractice.GlyphGate.FunctionalTests", "src\WizardPractice.GlyphGate\WizardPractice.GlyphGate.FunctionalTests\WizardPractice.GlyphGate.FunctionalTests.csproj", "{C1E9A4F6-6B96-42F1-B02E-DB86CA6EBA57}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WizardPractice.ArcanaAmalgamator.Client", "src\WizardPractice.ArcanaAmalgamator\WizardPractice.ArcanaAmalgamator.Client\WizardPractice.ArcanaAmalgamator.Client.csproj", "{8CF06330-EFA9-4061-836E-7150D1213787}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WizardPractice.ReagentReservoir.Client", "src\WizardPractice.ReagentReservoir\WizardPractice.ReagentReservoir.Client\WizardPractice.ReagentReservoir.Client.csproj", "{30AD9B73-4BB6-41D8-8DF2-F6F1A812C076}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WizardPractice.ReagentReservoir.ServiceContracts", "src\WizardPractice.ReagentReservoir\WizardPractice.ReagentReservoir.ServiceContracts\WizardPractice.ReagentReservoir.ServiceContracts.csproj", "{93A43D9C-0D72-4C0E-8A35-67764F7CC62A}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WizardPractice.ReagentReservoir.Service.UnitTests", "src\WizardPractice.ReagentReservoir\WizardPractice.ReagentReservoir.Service.UnitTests\WizardPractice.ReagentReservoir.Service.UnitTests.csproj", "{0667536F-82AD-4705-9951-E05BC2B662B6}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WizardPractice.ReagentReservoir.Client.UnitTests", "src\WizardPractice.ReagentReservoir\WizardPractice.ReagentReservoir.Client.UnitTests\WizardPractice.ReagentReservoir.Client.UnitTests.csproj", "{77F79009-CD86-411A-9611-7FAA231A1ED7}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WizardPractice.ReagentReservoir.FunctionalTests", "src\WizardPractice.ReagentReservoir\WizardPractice.ReagentReservoir.FunctionalTests\WizardPractice.ReagentReservoir.FunctionalTests.csproj", "{87450488-FB31-47A1-881C-701C84BB6C60}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WizardPractice.ArcanaAmalgamator.Client", "src\WizardPractice.ArcanaAmalgamator\WizardPractice.ArcanaAmalgamator.Client\WizardPractice.ArcanaAmalgamator.Client.csproj", "{8CF06330-EFA9-4061-836E-7150D1213787}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WizardPractice.ArcanaAmalgamator.Service.UnitTests", "src\WizardPractice.ArcanaAmalgamator\WizardPractice.ArcanaAmalgamator.Service.UnitTests\WizardPractice.ArcanaAmalgamator.Service.UnitTests.csproj", "{184C5ACE-A160-41B9-B115-F3FFB73D316B}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WizardPractice.ArcanaAmalgamator.ServiceContracts", "src\WizardPractice.ArcanaAmalgamator\WizardPractice.ArcanaAmalgamator.ServiceContracts\WizardPractice.ArcanaAmalgamator.ServiceContracts.csproj", "{90F21922-FE1B-4C1B-8544-227E5D0AF915}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WizardPractice.ArcanaAmalgamator.Client.UnitTests", "src\WizardPractice.ArcanaAmalgamator\WizardPractice.ArcanaAmalgamator.Client.UnitTests\WizardPractice.ArcanaAmalgamator.Client.UnitTests.csproj", "{52322B00-29C8-4720-AA2F-46C95A89D66B}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WizardPractice.ArcanaAmalgamator.FunctionalTests", "src\WizardPractice.ArcanaAmalgamator\WizardPractice.ArcanaAmalgamator.FunctionalTests\WizardPractice.ArcanaAmalgamator.FunctionalTests.csproj", "{956943EC-FE8A-48CF-AE58-58C3E56FF35C}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WizardPractice.Core", "src\WizardPractice.Core\WizardPractice.Core\WizardPractice.Core.csproj", "{D7A23BFE-E0C4-4E47-833A-6BF668B8DEEE}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WizardPractice.Core.UnitTests", "src\WizardPractice.Core\WizardPractice.Core.UnitTests\WizardPractice.Core.UnitTests.csproj", "{66FAF5DF-252B-4410-9C39-846465AFE9C0}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WizardPractice.Cosmos", "src\WizardPractice.Cosmos\WizardPractice.Cosmos.csproj", "{2D7C8906-1DBA-4111-93FC-43641996C2C1}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WizardPractice.EventHubs", "src\WizardPractice.EventHubs\WizardPractice.EventHubs.csproj", "{3183ACAC-83B5-4C98-878F-040D3BABF498}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WizardPractice.ArcanaAmalgamator.ServiceContracts", "src\WizardPractice.ArcanaAmalgamator\WizardPractice.ArcanaAmalgamator.ServiceContracts\WizardPractice.ArcanaAmalgamator.ServiceContracts.csproj", "{90F21922-FE1B-4C1B-8544-227E5D0AF915}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -73,18 +47,6 @@ Global
 		{9190A3D8-380D-488F-9CAD-6CC1FB2975AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9190A3D8-380D-488F-9CAD-6CC1FB2975AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9190A3D8-380D-488F-9CAD-6CC1FB2975AE}.Release|Any CPU.Build.0 = Release|Any CPU
-		{7F8FA84F-11EA-4EEC-A385-AFE9D424C5E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7F8FA84F-11EA-4EEC-A385-AFE9D424C5E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7F8FA84F-11EA-4EEC-A385-AFE9D424C5E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7F8FA84F-11EA-4EEC-A385-AFE9D424C5E1}.Release|Any CPU.Build.0 = Release|Any CPU
-		{9ACA0327-D1C2-4C8F-9092-F26E9744A906}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9ACA0327-D1C2-4C8F-9092-F26E9744A906}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9ACA0327-D1C2-4C8F-9092-F26E9744A906}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9ACA0327-D1C2-4C8F-9092-F26E9744A906}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C1E9A4F6-6B96-42F1-B02E-DB86CA6EBA57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C1E9A4F6-6B96-42F1-B02E-DB86CA6EBA57}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C1E9A4F6-6B96-42F1-B02E-DB86CA6EBA57}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C1E9A4F6-6B96-42F1-B02E-DB86CA6EBA57}.Release|Any CPU.Build.0 = Release|Any CPU
 		{30AD9B73-4BB6-41D8-8DF2-F6F1A812C076}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{30AD9B73-4BB6-41D8-8DF2-F6F1A812C076}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{30AD9B73-4BB6-41D8-8DF2-F6F1A812C076}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -93,54 +55,14 @@ Global
 		{93A43D9C-0D72-4C0E-8A35-67764F7CC62A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{93A43D9C-0D72-4C0E-8A35-67764F7CC62A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{93A43D9C-0D72-4C0E-8A35-67764F7CC62A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{0667536F-82AD-4705-9951-E05BC2B662B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0667536F-82AD-4705-9951-E05BC2B662B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0667536F-82AD-4705-9951-E05BC2B662B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0667536F-82AD-4705-9951-E05BC2B662B6}.Release|Any CPU.Build.0 = Release|Any CPU
-		{77F79009-CD86-411A-9611-7FAA231A1ED7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{77F79009-CD86-411A-9611-7FAA231A1ED7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{77F79009-CD86-411A-9611-7FAA231A1ED7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{77F79009-CD86-411A-9611-7FAA231A1ED7}.Release|Any CPU.Build.0 = Release|Any CPU
-		{87450488-FB31-47A1-881C-701C84BB6C60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{87450488-FB31-47A1-881C-701C84BB6C60}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{87450488-FB31-47A1-881C-701C84BB6C60}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{87450488-FB31-47A1-881C-701C84BB6C60}.Release|Any CPU.Build.0 = Release|Any CPU
 		{8CF06330-EFA9-4061-836E-7150D1213787}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{8CF06330-EFA9-4061-836E-7150D1213787}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8CF06330-EFA9-4061-836E-7150D1213787}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8CF06330-EFA9-4061-836E-7150D1213787}.Release|Any CPU.Build.0 = Release|Any CPU
-		{184C5ACE-A160-41B9-B115-F3FFB73D316B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{184C5ACE-A160-41B9-B115-F3FFB73D316B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{184C5ACE-A160-41B9-B115-F3FFB73D316B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{184C5ACE-A160-41B9-B115-F3FFB73D316B}.Release|Any CPU.Build.0 = Release|Any CPU
 		{90F21922-FE1B-4C1B-8544-227E5D0AF915}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{90F21922-FE1B-4C1B-8544-227E5D0AF915}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{90F21922-FE1B-4C1B-8544-227E5D0AF915}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{90F21922-FE1B-4C1B-8544-227E5D0AF915}.Release|Any CPU.Build.0 = Release|Any CPU
-		{52322B00-29C8-4720-AA2F-46C95A89D66B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{52322B00-29C8-4720-AA2F-46C95A89D66B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{52322B00-29C8-4720-AA2F-46C95A89D66B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{52322B00-29C8-4720-AA2F-46C95A89D66B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{956943EC-FE8A-48CF-AE58-58C3E56FF35C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{956943EC-FE8A-48CF-AE58-58C3E56FF35C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{956943EC-FE8A-48CF-AE58-58C3E56FF35C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{956943EC-FE8A-48CF-AE58-58C3E56FF35C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D7A23BFE-E0C4-4E47-833A-6BF668B8DEEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D7A23BFE-E0C4-4E47-833A-6BF668B8DEEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D7A23BFE-E0C4-4E47-833A-6BF668B8DEEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D7A23BFE-E0C4-4E47-833A-6BF668B8DEEE}.Release|Any CPU.Build.0 = Release|Any CPU
-		{66FAF5DF-252B-4410-9C39-846465AFE9C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{66FAF5DF-252B-4410-9C39-846465AFE9C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{66FAF5DF-252B-4410-9C39-846465AFE9C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{66FAF5DF-252B-4410-9C39-846465AFE9C0}.Release|Any CPU.Build.0 = Release|Any CPU
-		{2D7C8906-1DBA-4111-93FC-43641996C2C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2D7C8906-1DBA-4111-93FC-43641996C2C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2D7C8906-1DBA-4111-93FC-43641996C2C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2D7C8906-1DBA-4111-93FC-43641996C2C1}.Release|Any CPU.Build.0 = Release|Any CPU
-		{3183ACAC-83B5-4C98-878F-040D3BABF498}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3183ACAC-83B5-4C98-878F-040D3BABF498}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3183ACAC-83B5-4C98-878F-040D3BABF498}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3183ACAC-83B5-4C98-878F-040D3BABF498}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

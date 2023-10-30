@@ -1,4 +1,6 @@
-using System.Net;
+// ------------------------------------
+// Wizard Practice AKS Micro Services
+// ------------------------------------
 
 var builder = WebApplication.CreateBuilder(args);
 

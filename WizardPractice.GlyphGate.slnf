@@ -3,12 +3,7 @@
     "path": "WizardPractice.sln",
     "projects": [
       "src\\WizardPractice.ArcanaAmalgamator\\WizardPractice.ArcanaAmalgamator.Client\\WizardPractice.ArcanaAmalgamator.Client.csproj",
-      "src\\WizardPractice.Core\\WizardPractice.Core\\WizardPractice.Core.csproj",
-      "src\\WizardPractice.Cosmos\\WizardPractice.Cosmos.csproj",
-      "src\\WizardPractice.GlyphGate\\WizardPractice.GlyphGate.Client.UnitTests\\WizardPractice.GlyphGate.Client.UnitTests.csproj",
       "src\\WizardPractice.GlyphGate\\WizardPractice.GlyphGate.Client\\WizardPractice.GlyphGate.Client.csproj",
-      "src\\WizardPractice.GlyphGate\\WizardPractice.GlyphGate.FunctionalTests\\WizardPractice.GlyphGate.FunctionalTests.csproj",
-      "src\\WizardPractice.GlyphGate\\WizardPractice.GlyphGate.Service.UnitTests\\WizardPractice.GlyphGate.Service.UnitTests.csproj",
       "src\\WizardPractice.GlyphGate\\WizardPractice.GlyphGate.ServiceContracts\\WizardPractice.GlyphGate.ServiceContracts.csproj",
       "src\\WizardPractice.GlyphGate\\WizardPractice.GlyphGate.Service\\WizardPractice.GlyphGate.Service.csproj"
     ]

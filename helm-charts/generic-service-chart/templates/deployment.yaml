@@ -44,7 +44,7 @@ spec:
       volumes:
         - name: my-cert-volume
           secret:
-            secretName: mycert-secret
+            secretName: aspnetapp-cert
       nodeSelector: {{- toYaml .Values.nodeSelector | nindent 8 }}
       affinity: {{- toYaml .Values.affinity | nindent 8 }}
       tolerations: {{- toYaml .Values.tolerations | nindent 8 }}

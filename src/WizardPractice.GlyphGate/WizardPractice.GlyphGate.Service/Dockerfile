@@ -21,5 +21,4 @@ RUN dotnet publish -c Release -o /app/publish /p:UseAppHost=false
 FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
-# Copy the certificate - modify the path as needed
 ENTRYPOINT ["dotnet", "WizardPractice.GlyphGate.Service.dll"]

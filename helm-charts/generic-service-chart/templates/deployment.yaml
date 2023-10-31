@@ -12,7 +12,9 @@ spec:
   template:
     metadata:
       annotations: {{- toYaml .Values.podAnnotations | nindent 8 }}
-      labels: {{- include "generic-service-chart.labels" . | nindent 8 }}
+      labels: 
+        {{- include "generic-service-chart.labels" . | nindent 8 }}
+        aadpodidbinding: {{ .Values.aadpodidbinding | default "wizard-aadpodbinding" | quote }}
     spec:
       imagePullSecrets: {{- toYaml .Values.imagePullSecrets | nindent 8 }}
       serviceAccountName: {{ include "generic-service-chart.serviceAccountName" . }}
@@ -51,3 +53,4 @@ spec:
       nodeSelector: {{- toYaml .Values.nodeSelector | nindent 8 }}
       affinity: {{- toYaml .Values.affinity | nindent 8 }}
       tolerations: {{- toYaml .Values.tolerations | nindent 8 }}
+

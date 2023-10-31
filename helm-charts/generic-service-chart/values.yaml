@@ -1,4 +1,5 @@
 replicaCount: 1
+aadpodidbinding: "wizard-aadpodbinding"
 
 image:
   repository: nginx
@@ -54,3 +55,4 @@ autoscaling:
 nodeSelector: {}
 tolerations: []
 affinity: {}
+

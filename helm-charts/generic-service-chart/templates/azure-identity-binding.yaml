@@ -1,0 +1,7 @@
+apiVersion: "aadpodidentity.k8s.io/v1"
+kind: AzureIdentityBinding
+metadata:
+  name: wizard-practice-ad-binding
+spec:
+  azureIdentity: wizard-practice-mi
+  selector: wizard-aadpodbinding

@@ -21,8 +21,4 @@
 		<PackageReference Include="protobuf-net.Grpc.AspNetCore" Version="1.1.1" />
 	</ItemGroup>
 
-	<ItemGroup>
-	  <ProjectReference Include="..\WizardPractice.GlyphGate.ServiceContracts\WizardPractice.GlyphGate.ServiceContracts.csproj" />
-	</ItemGroup>
-
 </Project>

@@ -22,6 +22,3 @@ FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
 ENTRYPOINT ["dotnet", "WizardPractice.ArcanaAmalgamator.Service.dll"]
-
-# Copy the certificate
-COPY ${HOME}/.aspnet/https/aspnetapp.pfx /https/
